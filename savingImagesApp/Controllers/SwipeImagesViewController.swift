@@ -326,7 +326,7 @@ class SwipeImagesViewController: UIViewController {
         if !userSavedData.isEmpty {
             fullScreenImageView.configure(with: userSavedData[index])
             containerView.addSubview(fullScreenImageView)
-            view.resignFirstResponder()
+            imageDescriptionTextField.resignFirstResponder()
         }
     }
     
