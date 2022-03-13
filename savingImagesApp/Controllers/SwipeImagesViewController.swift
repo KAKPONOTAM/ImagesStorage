@@ -454,6 +454,6 @@ class SwipeImagesViewController: UIViewController {
     }
     
     @objc private func hideKeyboardRecognizer() {
-        view.resignFirstResponder()
+        imageDescriptionTextField.resignFirstResponder()
     }
 }
