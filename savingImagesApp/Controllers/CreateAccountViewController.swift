@@ -1,4 +1,5 @@
 import UIKit
+import SwiftyKeychainKit
 
 class CreateAccountViewController: UIViewController {
     //MARK: - properties
@@ -172,8 +173,7 @@ class CreateAccountViewController: UIViewController {
             repeatPasswordTextField.placeholder = " пароль должен содержать минимум 4 символа"
             
         } else {
-            let userPassword = UserPassword(password: passwordTextFieldText)
-            UserPasswordManager.shared.savePassword(userPassword: userPassword)
+            UserPasswordManager.shared.savePassword(userPassword: passwordTextFieldText)
             
             let alert = UIAlertController(title: "Пароль успешно сохарнен", message: "перейдите в раздел логина и авторизируйтесь", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "Ok", style: .default) { _ in

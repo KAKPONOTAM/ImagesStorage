@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66134BE827EDBA3200BC9DEF /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66134BE727EDBA3200BC9DEF /* UserDefaultsKeys.swift */; };
 		66EBF0E527DE07CC007E9BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF0E427DE07CC007E9BFD /* AppDelegate.swift */; };
 		66EBF0EE27DE07CE007E9BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66EBF0ED27DE07CE007E9BFD /* Assets.xcassets */; };
 		66EBF0F127DE07CE007E9BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66EBF0EF27DE07CE007E9BFD /* LaunchScreen.storyboard */; };
@@ -15,7 +16,7 @@
 		66EBF0FD27DE081A007E9BFD /* SwipeImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF0FC27DE081A007E9BFD /* SwipeImagesViewController.swift */; };
 		66EBF0FF27DE081F007E9BFD /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF0FE27DE081F007E9BFD /* AuthorizationViewController.swift */; };
 		66EBF10127DE0822007E9BFD /* ImagesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF10027DE0822007E9BFD /* ImagesCollectionViewController.swift */; };
-		66EBF10327DE083F007E9BFD /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF10227DE083F007E9BFD /* UserDefaultsKeys.swift */; };
+		66EBF10327DE083F007E9BFD /* KeychainKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF10227DE083F007E9BFD /* KeychainKeys.swift */; };
 		66EBF10827DE088D007E9BFD /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF10727DE088D007E9BFD /* FileManager.swift */; };
 		66EBF10A27DE0895007E9BFD /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF10927DE0895007E9BFD /* UserDefaults.swift */; };
 		66EBF10C27DE08A0007E9BFD /* imageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF10B27DE08A0007E9BFD /* imageCollectionViewController.swift */; };
@@ -23,15 +24,17 @@
 		66EBF11127DE08BE007E9BFD /* UserPasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF11027DE08BE007E9BFD /* UserPasswordManager.swift */; };
 		66EBF11327DE08C5007E9BFD /* UserSavedImagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF11227DE08C5007E9BFD /* UserSavedImagesManager.swift */; };
 		66EBF11627DE08E3007E9BFD /* AboutImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF11527DE08E3007E9BFD /* AboutImages.swift */; };
-		66EBF11827DE08E8007E9BFD /* UserPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF11727DE08E8007E9BFD /* UserPassword.swift */; };
 		66EBF11B27DE08F3007E9BFD /* FullScreenImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66EBF11A27DE08F3007E9BFD /* FullScreenImageView.xib */; };
 		66EBF11E27DE0907007E9BFD /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF11D27DE0907007E9BFD /* ImageCollectionViewCell.swift */; };
 		66EBF12027DE090C007E9BFD /* ImageZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF11F27DE090C007E9BFD /* ImageZoomView.swift */; };
 		66EBF12227DE0911007E9BFD /* FullScreenImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF12127DE0911007E9BFD /* FullScreenImageView.swift */; };
 		66EBF12427DE0924007E9BFD /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EBF12327DE0924007E9BFD /* SwipeDirection.swift */; };
+		7371CC4384FC64BFEA9FF4C1 /* Pods_savingImagesApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7BEFFB13D55B72A375289D /* Pods_savingImagesApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		352864C921E15F0E81570DA6 /* Pods-savingImagesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savingImagesApp.release.xcconfig"; path = "Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp.release.xcconfig"; sourceTree = "<group>"; };
+		66134BE727EDBA3200BC9DEF /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		66EBF0E127DE07CC007E9BFD /* savingImagesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = savingImagesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EBF0E427DE07CC007E9BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66EBF0ED27DE07CE007E9BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,7 +45,7 @@
 		66EBF0FC27DE081A007E9BFD /* SwipeImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeImagesViewController.swift; sourceTree = "<group>"; };
 		66EBF0FE27DE081F007E9BFD /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		66EBF10027DE0822007E9BFD /* ImagesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewController.swift; sourceTree = "<group>"; };
-		66EBF10227DE083F007E9BFD /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		66EBF10227DE083F007E9BFD /* KeychainKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainKeys.swift; sourceTree = "<group>"; };
 		66EBF10727DE088D007E9BFD /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		66EBF10927DE0895007E9BFD /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		66EBF10B27DE08A0007E9BFD /* imageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageCollectionViewController.swift; sourceTree = "<group>"; };
@@ -50,12 +53,13 @@
 		66EBF11027DE08BE007E9BFD /* UserPasswordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPasswordManager.swift; sourceTree = "<group>"; };
 		66EBF11227DE08C5007E9BFD /* UserSavedImagesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSavedImagesManager.swift; sourceTree = "<group>"; };
 		66EBF11527DE08E3007E9BFD /* AboutImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutImages.swift; sourceTree = "<group>"; };
-		66EBF11727DE08E8007E9BFD /* UserPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPassword.swift; sourceTree = "<group>"; };
 		66EBF11A27DE08F3007E9BFD /* FullScreenImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FullScreenImageView.xib; sourceTree = "<group>"; };
 		66EBF11D27DE0907007E9BFD /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		66EBF11F27DE090C007E9BFD /* ImageZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageZoomView.swift; sourceTree = "<group>"; };
 		66EBF12127DE0911007E9BFD /* FullScreenImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenImageView.swift; sourceTree = "<group>"; };
 		66EBF12327DE0924007E9BFD /* SwipeDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeDirection.swift; sourceTree = "<group>"; };
+		ED7BEFFB13D55B72A375289D /* Pods_savingImagesApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_savingImagesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9CA23D592FB794210CEDFE /* Pods-savingImagesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-savingImagesApp.debug.xcconfig"; path = "Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7371CC4384FC64BFEA9FF4C1 /* Pods_savingImagesApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09A2CFBD9317B2969E39D265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7BEFFB13D55B72A375289D /* Pods_savingImagesApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F827F9AE595D584C8783A4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE9CA23D592FB794210CEDFE /* Pods-savingImagesApp.debug.xcconfig */,
+				352864C921E15F0E81570DA6 /* Pods-savingImagesApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		66EBF0D827DE07CC007E9BFD = {
 			isa = PBXGroup;
 			children = (
 				66EBF0E327DE07CC007E9BFD /* savingImagesApp */,
 				66EBF0E227DE07CC007E9BFD /* Products */,
+				2F827F9AE595D584C8783A4D /* Pods */,
+				09A2CFBD9317B2969E39D265 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +117,7 @@
 				66EBF11427DE08D3007E9BFD /* Models */,
 				66EBF10F27DE08B2007E9BFD /* Managers */,
 				66EBF10627DE0883007E9BFD /* Extensions */,
-				66EBF10527DE086C007E9BFD /* UserDefaultsKeys */,
+				66EBF10527DE086C007E9BFD /* Keys */,
 				66EBF10427DE084D007E9BFD /* Controllers */,
 				66EBF0E427DE07CC007E9BFD /* AppDelegate.swift */,
 				66EBF0ED27DE07CE007E9BFD /* Assets.xcassets */,
@@ -116,12 +140,13 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		66EBF10527DE086C007E9BFD /* UserDefaultsKeys */ = {
+		66EBF10527DE086C007E9BFD /* Keys */ = {
 			isa = PBXGroup;
 			children = (
-				66EBF10227DE083F007E9BFD /* UserDefaultsKeys.swift */,
+				66EBF10227DE083F007E9BFD /* KeychainKeys.swift */,
+				66134BE727EDBA3200BC9DEF /* UserDefaultsKeys.swift */,
 			);
-			path = UserDefaultsKeys;
+			path = Keys;
 			sourceTree = "<group>";
 		};
 		66EBF10627DE0883007E9BFD /* Extensions */ = {
@@ -148,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				66EBF11527DE08E3007E9BFD /* AboutImages.swift */,
-				66EBF11727DE08E8007E9BFD /* UserPassword.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66EBF0F527DE07CE007E9BFD /* Build configuration list for PBXNativeTarget "savingImagesApp" */;
 			buildPhases = (
+				59D86B229BA0A6D1092FC5C7 /* [CP] Check Pods Manifest.lock */,
 				66EBF0DD27DE07CC007E9BFD /* Sources */,
 				66EBF0DE27DE07CC007E9BFD /* Frameworks */,
 				66EBF0DF27DE07CC007E9BFD /* Resources */,
+				F8AE235AA62FD8E8C6F65A05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +263,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59D86B229BA0A6D1092FC5C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-savingImagesApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8AE235AA62FD8E8C6F65A05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66EBF0DD27DE07CC007E9BFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -251,10 +319,10 @@
 				66EBF11627DE08E3007E9BFD /* AboutImages.swift in Sources */,
 				66EBF0E527DE07CC007E9BFD /* AppDelegate.swift in Sources */,
 				66EBF11327DE08C5007E9BFD /* UserSavedImagesManager.swift in Sources */,
-				66EBF10327DE083F007E9BFD /* UserDefaultsKeys.swift in Sources */,
+				66EBF10327DE083F007E9BFD /* KeychainKeys.swift in Sources */,
 				66EBF12227DE0911007E9BFD /* FullScreenImageView.swift in Sources */,
 				66EBF10127DE0822007E9BFD /* ImagesCollectionViewController.swift in Sources */,
-				66EBF11827DE08E8007E9BFD /* UserPassword.swift in Sources */,
+				66134BE827EDBA3200BC9DEF /* UserDefaultsKeys.swift in Sources */,
 				66EBF10A27DE0895007E9BFD /* UserDefaults.swift in Sources */,
 				66EBF10E27DE08A4007E9BFD /* SwipeImagesViewControler.swift in Sources */,
 				66EBF0FD27DE081A007E9BFD /* SwipeImagesViewController.swift in Sources */,
@@ -396,6 +464,7 @@
 		};
 		66EBF0F627DE07CE007E9BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9CA23D592FB794210CEDFE /* Pods-savingImagesApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -423,6 +492,7 @@
 		};
 		66EBF0F727DE07CE007E9BFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 352864C921E15F0E81570DA6 /* Pods-savingImagesApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

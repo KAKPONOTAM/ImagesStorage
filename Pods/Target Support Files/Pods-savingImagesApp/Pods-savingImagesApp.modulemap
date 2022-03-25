@@ -1,0 +1,6 @@
+framework module Pods_savingImagesApp {
+  umbrella header "Pods-savingImagesApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

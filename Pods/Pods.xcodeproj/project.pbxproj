@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157F630677FF04C082FEE89EFEBED524 /* SwiftyKeychainKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 254FB0BE62186B1F404C9891FD56016D /* SwiftyKeychainKit-dummy.m */; };
+		297AFAB1CECF480CC979FC0B4B7C7A58 /* KeychainSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04948817B27FDE43DB6EAD95857E590 /* KeychainSerializable.swift */; };
+		3B990E5476D28CBDDF93933193BE7885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5FE22ED524BB95FB51E048B79F0CFBA7 /* Pods-savingImagesApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07518C2308EB13F895C71A09662AC320 /* Pods-savingImagesApp-dummy.m */; };
+		78CBDB0648BB0253287A1EDB69DE9497 /* SwiftyKeychainKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BD8B0FA4696AF9E63295EC59B81E0E /* SwiftyKeychainKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A13614DD699E7FAA63B7659C447DB8DC /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D218167573BE3091637F7B38F787AD7 /* Keychain.swift */; };
+		BF7574AA22E06BE473CDFCA714567F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E42FF59F147B55495FDF111A21B79E36 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39665FFDFFEFDF54F7A7D747CC29FAC1 /* KeychainError.swift */; };
+		E6E9CAA717A24C2E6003944E77664CF3 /* KeychainBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7EC1062942C2664AF365CC9A6297E /* KeychainBridge.swift */; };
+		FF28B4281A759C63D744EFE5212E56F6 /* Pods-savingImagesApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E95E1EF01DC412966765C75FB73DC67F /* Pods-savingImagesApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065AA752C8458EC2BB1B061BB1C02537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9DFE73C3E0DB9CB93C095904997F37A;
+			remoteInfo = SwiftyKeychainKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07518C2308EB13F895C71A09662AC320 /* Pods-savingImagesApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-savingImagesApp-dummy.m"; sourceTree = "<group>"; };
+		089EB68AB247FD3647357526B6D1D0FD /* Pods-savingImagesApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-savingImagesApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A5E10F746928DBEF0044737D638A6F7 /* Pods-savingImagesApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-savingImagesApp-Info.plist"; sourceTree = "<group>"; };
+		10EC4FC635935B705088D87B7EE47BCF /* SwiftyKeychainKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyKeychainKit.release.xcconfig; sourceTree = "<group>"; };
+		13BD8B0FA4696AF9E63295EC59B81E0E /* SwiftyKeychainKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyKeychainKit-umbrella.h"; sourceTree = "<group>"; };
+		254FB0BE62186B1F404C9891FD56016D /* SwiftyKeychainKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyKeychainKit-dummy.m"; sourceTree = "<group>"; };
+		258C70C973F31097468E616D018311FC /* SwiftyKeychainKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyKeychainKit; path = SwiftyKeychainKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3C61E015420A4A346DE26AC50A176C /* SwiftyKeychainKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyKeychainKit.debug.xcconfig; sourceTree = "<group>"; };
+		39665FFDFFEFDF54F7A7D747CC29FAC1 /* KeychainError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainError.swift; path = Sources/KeychainError.swift; sourceTree = "<group>"; };
+		531EA8A7DAFD3161CBEEDA35E4AF6D75 /* Pods-savingImagesApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-savingImagesApp.debug.xcconfig"; sourceTree = "<group>"; };
+		55EF0CE7292A1604DF8C444B86999ED3 /* Pods-savingImagesApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-savingImagesApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DC95EBAD12BA91CA4F25F70F6ACD252 /* SwiftyKeychainKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyKeychainKit-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		85135D4AF5C77ADCF4052C753A3CA9B5 /* Pods-savingImagesApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-savingImagesApp.modulemap"; sourceTree = "<group>"; };
+		85D7EC1062942C2664AF365CC9A6297E /* KeychainBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainBridge.swift; path = Sources/KeychainBridge.swift; sourceTree = "<group>"; };
+		8CDA752686377742C204DB5EDB38C5CE /* Pods-savingImagesApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-savingImagesApp"; path = Pods_savingImagesApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D218167573BE3091637F7B38F787AD7 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Keychain.swift; sourceTree = "<group>"; };
+		91ED00C73F84C036AFA7E1171F90300E /* SwiftyKeychainKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyKeychainKit.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A04948817B27FDE43DB6EAD95857E590 /* KeychainSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSerializable.swift; path = Sources/KeychainSerializable.swift; sourceTree = "<group>"; };
+		A4637FAE96BF0357147FB09F41C8E764 /* Pods-savingImagesApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-savingImagesApp-frameworks.sh"; sourceTree = "<group>"; };
+		B6F6CE8ADAF7C34FA863F79F339FF841 /* Pods-savingImagesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-savingImagesApp.release.xcconfig"; sourceTree = "<group>"; };
+		E6CB4FFD07CA4EB32C7D7683E05AD180 /* SwiftyKeychainKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyKeychainKit-Info.plist"; sourceTree = "<group>"; };
+		E95E1EF01DC412966765C75FB73DC67F /* Pods-savingImagesApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-savingImagesApp-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB6167DBA5108F42FAA887258AC57B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B990E5476D28CBDDF93933193BE7885 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B9B134662E3F141C5A648A656359486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7574AA22E06BE473CDFCA714567F5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06123A7673BAABB86A7FF9D58A6F06E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91ED00C73F84C036AFA7E1171F90300E /* SwiftyKeychainKit.modulemap */,
+				254FB0BE62186B1F404C9891FD56016D /* SwiftyKeychainKit-dummy.m */,
+				E6CB4FFD07CA4EB32C7D7683E05AD180 /* SwiftyKeychainKit-Info.plist */,
+				5DC95EBAD12BA91CA4F25F70F6ACD252 /* SwiftyKeychainKit-prefix.pch */,
+				13BD8B0FA4696AF9E63295EC59B81E0E /* SwiftyKeychainKit-umbrella.h */,
+				2B3C61E015420A4A346DE26AC50A176C /* SwiftyKeychainKit.debug.xcconfig */,
+				10EC4FC635935B705088D87B7EE47BCF /* SwiftyKeychainKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyKeychainKit";
+			sourceTree = "<group>";
+		};
+		081DCC0CFE5C268D83C8D7FE62DD61E2 /* Pods-savingImagesApp */ = {
+			isa = PBXGroup;
+			children = (
+				85135D4AF5C77ADCF4052C753A3CA9B5 /* Pods-savingImagesApp.modulemap */,
+				55EF0CE7292A1604DF8C444B86999ED3 /* Pods-savingImagesApp-acknowledgements.markdown */,
+				089EB68AB247FD3647357526B6D1D0FD /* Pods-savingImagesApp-acknowledgements.plist */,
+				07518C2308EB13F895C71A09662AC320 /* Pods-savingImagesApp-dummy.m */,
+				A4637FAE96BF0357147FB09F41C8E764 /* Pods-savingImagesApp-frameworks.sh */,
+				0A5E10F746928DBEF0044737D638A6F7 /* Pods-savingImagesApp-Info.plist */,
+				E95E1EF01DC412966765C75FB73DC67F /* Pods-savingImagesApp-umbrella.h */,
+				531EA8A7DAFD3161CBEEDA35E4AF6D75 /* Pods-savingImagesApp.debug.xcconfig */,
+				B6F6CE8ADAF7C34FA863F79F339FF841 /* Pods-savingImagesApp.release.xcconfig */,
+			);
+			name = "Pods-savingImagesApp";
+			path = "Target Support Files/Pods-savingImagesApp";
+			sourceTree = "<group>";
+		};
+		403E0240A42ACA6D5CB5174963149CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CDA752686377742C204DB5EDB38C5CE /* Pods-savingImagesApp */,
+				258C70C973F31097468E616D018311FC /* SwiftyKeychainKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B96A4030A7F4388C80C4CEDD0E586C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				081DCC0CFE5C268D83C8D7FE62DD61E2 /* Pods-savingImagesApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EB8EA4440A4B360401ECE6D874820F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA305D38C41E122E3FA29066E1A2B049 /* SwiftyKeychainKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA305D38C41E122E3FA29066E1A2B049 /* SwiftyKeychainKit */ = {
+			isa = PBXGroup;
+			children = (
+				8D218167573BE3091637F7B38F787AD7 /* Keychain.swift */,
+				85D7EC1062942C2664AF365CC9A6297E /* KeychainBridge.swift */,
+				39665FFDFFEFDF54F7A7D747CC29FAC1 /* KeychainError.swift */,
+				A04948817B27FDE43DB6EAD95857E590 /* KeychainSerializable.swift */,
+				06123A7673BAABB86A7FF9D58A6F06E9 /* Support Files */,
+			);
+			name = SwiftyKeychainKit;
+			path = SwiftyKeychainKit;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6EB8EA4440A4B360401ECE6D874820F8 /* Pods */,
+				403E0240A42ACA6D5CB5174963149CEC /* Products */,
+				49B96A4030A7F4388C80C4CEDD0E586C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7EEE447D2B9EDEDF9FAC29F466D65CD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CBDB0648BB0253287A1EDB69DE9497 /* SwiftyKeychainKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30502347969B88E04E5438358240E30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF28B4281A759C63D744EFE5212E56F6 /* Pods-savingImagesApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0207682C228D618B4F9FCC6029375B36 /* Pods-savingImagesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1830D4985BBBEE3E48AE2807E849C659 /* Build configuration list for PBXNativeTarget "Pods-savingImagesApp" */;
+			buildPhases = (
+				B30502347969B88E04E5438358240E30 /* Headers */,
+				0F596F2B29ED21E87283493E8C775FE1 /* Sources */,
+				2FB6167DBA5108F42FAA887258AC57B9 /* Frameworks */,
+				3BA0F97154B12FE0C925193353478B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5133CDC387A73518E5B56A4D942990A /* PBXTargetDependency */,
+			);
+			name = "Pods-savingImagesApp";
+			productName = Pods_savingImagesApp;
+			productReference = 8CDA752686377742C204DB5EDB38C5CE /* Pods-savingImagesApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9DFE73C3E0DB9CB93C095904997F37A /* SwiftyKeychainKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECADD345390B2C3E91FC21F9E1789D18 /* Build configuration list for PBXNativeTarget "SwiftyKeychainKit" */;
+			buildPhases = (
+				7EEE447D2B9EDEDF9FAC29F466D65CD1 /* Headers */,
+				9EEA1E5739F10A3B6401235528880832 /* Sources */,
+				9B9B134662E3F141C5A648A656359486 /* Frameworks */,
+				4458D7917CEE3E36FA16DD7642EFB05F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyKeychainKit;
+			productName = SwiftyKeychainKit;
+			productReference = 258C70C973F31097468E616D018311FC /* SwiftyKeychainKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 403E0240A42ACA6D5CB5174963149CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0207682C228D618B4F9FCC6029375B36 /* Pods-savingImagesApp */,
+				B9DFE73C3E0DB9CB93C095904997F37A /* SwiftyKeychainKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA0F97154B12FE0C925193353478B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4458D7917CEE3E36FA16DD7642EFB05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F596F2B29ED21E87283493E8C775FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE22ED524BB95FB51E048B79F0CFBA7 /* Pods-savingImagesApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEA1E5739F10A3B6401235528880832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13614DD699E7FAA63B7659C447DB8DC /* Keychain.swift in Sources */,
+				E6E9CAA717A24C2E6003944E77664CF3 /* KeychainBridge.swift in Sources */,
+				E42FF59F147B55495FDF111A21B79E36 /* KeychainError.swift in Sources */,
+				297AFAB1CECF480CC979FC0B4B7C7A58 /* KeychainSerializable.swift in Sources */,
+				157F630677FF04C082FEE89EFEBED524 /* SwiftyKeychainKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5133CDC387A73518E5B56A4D942990A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyKeychainKit;
+			target = B9DFE73C3E0DB9CB93C095904997F37A /* SwiftyKeychainKit */;
+			targetProxy = 065AA752C8458EC2BB1B061BB1C02537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A1E619FB3E477CC96813801CCF46A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531EA8A7DAFD3161CBEEDA35E4AF6D75 /* Pods-savingImagesApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		440D45CEDE4C7E22DA5FDA6D633DFBAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3C61E015420A4A346DE26AC50A176C /* SwiftyKeychainKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyKeychainKit/SwiftyKeychainKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyKeychainKit/SwiftyKeychainKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyKeychainKit/SwiftyKeychainKit.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyKeychainKit;
+				PRODUCT_NAME = SwiftyKeychainKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7FD36F0C2A0E95D7BBFFBACFB090D3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F6CE8ADAF7C34FA863F79F339FF841 /* Pods-savingImagesApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-savingImagesApp/Pods-savingImagesApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F20D465C13EDA37B8FBA686E563E1520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EC4FC635935B705088D87B7EE47BCF /* SwiftyKeychainKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyKeychainKit/SwiftyKeychainKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyKeychainKit/SwiftyKeychainKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyKeychainKit/SwiftyKeychainKit.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyKeychainKit;
+				PRODUCT_NAME = SwiftyKeychainKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1830D4985BBBEE3E48AE2807E849C659 /* Build configuration list for PBXNativeTarget "Pods-savingImagesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A1E619FB3E477CC96813801CCF46A2 /* Debug */,
+				7FD36F0C2A0E95D7BBFFBACFB090D3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECADD345390B2C3E91FC21F9E1789D18 /* Build configuration list for PBXNativeTarget "SwiftyKeychainKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440D45CEDE4C7E22DA5FDA6D633DFBAC /* Debug */,
+				F20D465C13EDA37B8FBA686E563E1520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

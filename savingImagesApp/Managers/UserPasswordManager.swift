@@ -1,19 +1,25 @@
 import Foundation
+import SwiftyKeychainKit
 
 class UserPasswordManager {
     //MARK: - properties
     static let shared = UserPasswordManager()
+    let keychain = Keychain(service: "keychain.service")
     
     //MARK: - private init
     private init() {}
     
     //MARK: - methods
-    func savePassword(userPassword: UserPassword) {
-        UserDefaults.standard.setValue(encodable: userPassword, forKey: UserDefaultsKeys.passwordKey)
+    func savePassword(userPassword: String) {
+        do {
+            try keychain.set(userPassword, for: KeychainKeys.passwordKey)
+        } catch {
+            print(error.localizedDescription)
+        }
     }
     
-    func receiveUserPassword() -> UserPassword? {
-        guard let model = UserDefaults.standard.loadValue(UserPassword.self, forKey: UserDefaultsKeys.passwordKey) else { return nil }
-        return model
+    func receiveUserPassword() -> String? {
+        guard let userPassword = try? keychain.get(KeychainKeys.passwordKey) else { return "" }
+        return userPassword
     }
 }

@@ -2,7 +2,7 @@ import UIKit
 
 class LoginViewViewController: UIViewController {
     //MARK: - properties
-    private var userPassword: UserPassword?
+    private var userPassword: String?
     private let textFieldPlaceholder = " password"
     
     private let descriptionLabel: UILabel = {
@@ -61,7 +61,7 @@ class LoginViewViewController: UIViewController {
         setupConstraints()
         createAttributedPlaceholder()
         
-        guard let userSavedPassword = UserPasswordManager.shared.receiveUserPassword() else { return }
+        let userSavedPassword = UserPasswordManager.shared.receiveUserPassword()
         userPassword = userSavedPassword
     }
     
@@ -121,7 +121,7 @@ class LoginViewViewController: UIViewController {
         guard let passwordTextFieldText = passwordTextField.text,
               let userPassword = userPassword else { return }
         
-        if passwordTextFieldText == userPassword.password {
+        if passwordTextFieldText == userPassword {
             let imagesCollectionViewController = ImagesCollectionViewController()
             imagesCollectionViewController.modalPresentationStyle = .fullScreen
             present(imagesCollectionViewController, animated: true, completion: nil)

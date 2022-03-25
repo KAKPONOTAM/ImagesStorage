@@ -111,7 +111,7 @@ class SwipeImagesViewController: UIViewController {
         createAttributedPlaceholder()
         registerForKeyboardNotifications()
         addImageFullScreenRecognizer()
-        addRemoveFullScreenImageViewRecognizer()
+        removeFullScreenImageViewRecognizer()
         addSwipeRecognizer()
         addHideKeyBoardRecognizer()
     }
@@ -334,7 +334,7 @@ class SwipeImagesViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    private func addRemoveFullScreenImageViewRecognizer() {
+    private func removeFullScreenImageViewRecognizer() {
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(removeFullScreenImageView))
         fullScreenImageView.addGestureRecognizer(recognizer)
     }
