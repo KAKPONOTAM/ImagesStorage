@@ -18,7 +18,7 @@ class ImagesCollectionViewController: UIViewController {
         return collectionView
     }()
     
-    private let presentSwipeImagesViewControllerButton: UIButton = {
+    private lazy var presentSwipeImagesViewControllerButton: UIButton = {
         let button = UIButton()
         button.addTarget(self, action: #selector(presentSwipeImagesViewController), for: .touchUpInside)
         let configuration = UIImage.SymbolConfiguration(pointSize: 30, weight: .bold, scale: .large)

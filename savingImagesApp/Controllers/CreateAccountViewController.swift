@@ -41,7 +41,7 @@ class CreateAccountViewController: UIViewController {
         return textField
     }()
     
-    private let savePasswordButton: UIButton = {
+    private lazy var savePasswordButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .black
         button.setTitle("Save", for: .normal)
@@ -52,7 +52,7 @@ class CreateAccountViewController: UIViewController {
         return button
     }()
     
-    private let dismissButton: UIButton = {
+    private lazy var dismissButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .black
         button.translatesAutoresizingMaskIntoConstraints = false

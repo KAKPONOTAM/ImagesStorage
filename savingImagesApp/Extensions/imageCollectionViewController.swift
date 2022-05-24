@@ -15,6 +15,6 @@ extension ImagesCollectionViewController: UIImagePickerControllerDelegate, UINav
             UserSavedImagesManager.shared.saveImages(aboutImages: userSavedData)
         }
         
-        self.dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
 }

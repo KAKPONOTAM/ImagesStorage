@@ -4,7 +4,7 @@ class AuthorizationViewController: UIViewController {
     //MARK: - properties
     private var isLiked = false
     
-    private let createAccountButton: UIButton = {
+    private lazy var createAccountButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.layer.cornerRadius = 5
@@ -15,7 +15,7 @@ class AuthorizationViewController: UIViewController {
         return button
     }()
     
-    private let signInButton: UIButton = {
+    private lazy var signInButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.layer.cornerRadius = 5
@@ -26,7 +26,7 @@ class AuthorizationViewController: UIViewController {
         return button
     }()
     
-    private let animationImageView: UIImageView = {
+    private lazy var animationImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false

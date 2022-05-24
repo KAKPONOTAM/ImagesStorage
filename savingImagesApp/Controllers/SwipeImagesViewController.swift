@@ -20,7 +20,7 @@ class SwipeImagesViewController: UIViewController {
         return scrollView
     }()
     
-    private let cameraButton: UIButton = {
+    private lazy var cameraButton: UIButton = {
         let button = UIButton()
         button.addTarget(self, action: #selector(openCamera), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -55,7 +55,7 @@ class SwipeImagesViewController: UIViewController {
         return imageView
     }()
     
-    private let deleteImageButton: UIButton = {
+    private lazy var deleteImageButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.tintColor = .red
@@ -65,7 +65,7 @@ class SwipeImagesViewController: UIViewController {
         return button
     }()
     
-    private let likeButton: UIButton = {
+    private lazy var likeButton: UIButton = {
         let button = UIButton()
         button.tintColor = .red
         let configuration = UIImage.SymbolConfiguration(pointSize: 20, weight: .bold, scale: .large)
@@ -75,7 +75,7 @@ class SwipeImagesViewController: UIViewController {
         return button
     }()
     
-    private let dismissButton: UIButton = {
+    private lazy var dismissButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Back", for: .normal)
